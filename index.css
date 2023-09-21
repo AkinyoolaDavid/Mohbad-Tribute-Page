@@ -7,8 +7,9 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(255, 255, 255, 0.521);
   font-size: 34px;
-  margin: 3px;
+  margin: 2px 695px 3px 3px;
   font-weight: bolder;
+  height: 20px;
 }
 h3 {
   color: white;
@@ -25,8 +26,6 @@ h3:hover {
 nav {
   display: flex;
   background-color: black;
-  justify-content: space-between;
-  align-items: center;
   padding: 0px 20px;
 }
 #nav-1 {
@@ -146,7 +145,7 @@ div#video-2 {
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: rgba(255, 255, 255, 0.521);
     font-size: 16px;
-    margin: 3px 3px 3px 10px;
+    margin: 3px 86px 3px 10px;
     font-weight: bolder;
   }
   h3 {
@@ -283,4 +282,109 @@ div#video-2 {
 }
 div#img-2 {
   padding: 9px 9px 9px 43px;
+}
+/* /* ///////////////////////////////////// */
+.center {
+  width: 9px;
+  margin: 2px auto 2px;
+  height: 20px;
+}
+.stand {
+  position: relative;
+  margin: 11rem auto 0;
+  width: 30px;
+  height: 0px;
+}
+.wax {
+  bottom: 0;
+  top: 53px;
+  left: 7%;
+  width: 23px;
+  height: 27px;
+  border-radius: 150px / 40px;
+  box-shadow: inset 10px -40px 20px 10px rgba(0, 0.3, 0.7, 0.3),
+    inset -50px 0 60px 10px rgba(0, 1, 2.5, 0.7);
+  background: #190f02;
+  background: white;
+  position: absolute;
+}
+.flutter {
+  width: 40px;
+  height: 26px;
+  left: 4%;
+  top: -1rem;
+  bottom: 124%;
+  transform: translate(-40%);
+  border-radius: 50%;
+  background: #ff4900;
+  filter: blur(40px);
+  animation: flutter 0.2s infinite;
+  position: absolute;
+}
+@keyframes flutter {
+  40% {
+    opacity: 0.6;
+  }
+}
+.candlewick {
+  width: 6px;
+  height: 23px;
+  position: absolute;
+  top: 1.9rem;
+  left: 9.3%;
+  z-index: 1;
+  border-radius: 30% 30% 10% 5%;
+  transform: translate(-50%);
+  background: #131312;
+  background: linear-gradient(#d6894a, #4b532c, #131312, brown, #e8cb31 70%);
+}
+.blaze {
+  width: 15px;
+  height: 0px;
+  left: 9%;
+  top: -1rem;
+  position: absolute;
+  transform-origin: 52% 20%;
+  transform: translate(-40%);
+  border-radius: 51% 55% 22% 20%;
+  background: rgba(254, 254, 254, 1);
+  background: linear-gradient(white 70%, transparent);
+  animation: blaze1 5s linear infinite, blaze2 6s linear infinite;
+  margin: 20px 0px 3px 3px;
+}
+@keyframes blaze2 {
+  0% {
+    transform: translate(-40%) rotate(-3deg);
+  }
+  50% {
+    transform: translate(-40%) rotate(3deg);
+  }
+  100% {
+    transform: translate(-40%) rotate(-3deg);
+  }
+}
+@keyframes blaze1 {
+  0%,
+  100% {
+    height: 38px;
+  }
+  50% {
+    height: 36px;
+  }
+  100% {
+    height: 38px;
+  }
+}
+.blue {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 51% 51% 45% 45%;
+  left: 8%;
+  top: 1rem;
+  transform: translate(-40%);
+  background: rgba(1, 123, 253, 0.6);
+  box-shadow: 1px -30px 40px 1px #dc8a0c, 1px 40px 50px 1px #dc8a0c,
+    inset 4px 1px 5px 1px rgba(1, 123, 253, 0.7),
+    inset -2px 1px 3px 1px rgba(1, 123, 253, 0.7);
 }
